@@ -158,7 +158,7 @@ boto3==1.17.90 \
     --hash=sha256:2ade860f66fa6b9a9886d7ff2e5118e5efebc4807b863ef735d358ef730234ed \
     --hash=sha256:bbf727d770a9844834bfbf3f811db1d3438320897f67cfb21cdca5bb8fc23c13
 # see last comment - celery is in between boto3 and botocore on purpose.
-celery==4.4.7 \
+celery==5.2.2 \
     --hash=sha256:a92e1d56e650781fb747032a3997d16236d037c8199eacd5217d1a72893bca45 \
     --hash=sha256:d220b13a8ed57c78149acf82c006785356071844afe0b27012a4991d44026f9f
 botocore==1.20.90 \
@@ -531,3 +531,4 @@ cached-property==1.5.2 \
 django-jsonfield-backport==1.0.3 \
     --hash=sha256:c2a559a32b95406a08f02fabc0aec08efa9ce677f4e206ababb6a303359419a8 \
     --hash=sha256:e5645cf17f252879e3759eb28caecd51692a000a076de9d91e5a1de03cb9542e
+django>=3.2.15 # not directly required, pinned by Snyk to avoid a vulnerability
